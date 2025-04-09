@@ -4,7 +4,7 @@ A instalação de um sistema operacional como Arch é em teoria complexa (em teo
 
 Mas dado que meu autismo não me permite seguir as metodologias burras e neurotipicas que focam na simplicidade e convenções, ignorando o potêncial para um sexo metaforico gostoso com a arquitetura da maquina ao se fazer paralelos com neurobiologia, cibernética, macumba(literalmente) e até termodinâmica computacional (com base em conceitos de codificação preditiva, síntese perceptual e eficiência energética).
 
-Bom, a ideia aqui é mostrar pros inuteis que se acham inteligentes ~~que são meus professores~~ documentando uma construção de um SO que serve ao humano, operando como um "Exocórtex Neurocomputacional" cagando na porra da ética e sem perder tempo com testes inuteis.
+Bom, a ideia aqui é mostrar pros inuteis que se acham inteligentes documentando uma construção de um SO que serve ao humano, operando como um "Exocórtex Neurocomputacional" cagando na porra da ética e sem perder tempo com testes inuteis.
 
 O hardware-alvo, uma torradeira com um Intel i3-8130U e 12GB de RAM, serve como corpo sobre o qual essa "consciência digital" será desenvolvida e a motivação central decorre da premissa de que, ao mapear metaforicamente os componentes do sistema operacional e os processos de configuração para estruturas e funções neurológicas (desde configurações de BIOS de baixo nível, que representam um "pré-consciente," até a estética da interface do usuário, alinhada aos princípios de "neuroergonomia"), é consigo alcançar um sistema que não é apenas tecnicamente otimizado, mas que também opera de maneira conceitualmente ressonante com a eficiência e adaptabilidade da inteligência biológica.
 
