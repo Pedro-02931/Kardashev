@@ -18,7 +18,7 @@
 
 * [A Neurocomputational Blueprint for Arch Linux System Invocation](destilando/a-neurocomputational-blueprint-for-arch-linux-system-invocation/README.md)
   * [Introdução](destilando/a-neurocomputational-blueprint-for-arch-linux-system-invocation/introducao.md)
-  * [Page 2](destilando/a-neurocomputational-blueprint-for-arch-linux-system-invocation/page-2.md)
+  * [Theoretical Framework: The Neurocomputational Installation Paradigm](destilando/a-neurocomputational-blueprint-for-arch-linux-system-invocation/theoretical-framework-the-neurocomputational-installation-paradigm.md)
 * [Sistema de Inferência por Granulação - Localização Interna por Atribuição IoT](destilando/atividade-levantamento-de-requisitos/README.md)
   * [Fluxo de Operação](destilando/atividade-levantamento-de-requisitos/fluxo-de-operacao/README.md)
     * [gRPC E MQTT](destilando/atividade-levantamento-de-requisitos/fluxo-de-operacao/grpc-e-mqtt.md)
