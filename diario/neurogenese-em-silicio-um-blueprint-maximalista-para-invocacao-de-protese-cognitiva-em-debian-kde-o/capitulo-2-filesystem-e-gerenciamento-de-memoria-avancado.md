@@ -1,35 +1,31 @@
-# Page 2
-
-***
-
-**Capítulo 2: Estrutura Cognitiva – Filesystem e Gerenciamento de Memória Avançado**
+# Capítulo 2: Filesystem e Gerenciamento de Memória Avançado
 
 Aqui a gente define como a informação é armazenada e acessada, inspirando-nos em como a memória funciona (ou como a gente _acha_ que funciona).
 
 **2.1 A Arquitetura da Memória (Estrutura Cognitiva do Filesystem)**
 
 * **Conceito:** Organizar o filesystem mapeando diretórios a funções cognitivas.
-*   **Estrutura Proposta:**&#x42;ash
 
-    ```
-    /
-    ├── system/        # OS Base (Memória Procedural - como fazer as coisas)
-    ├── cognitive/     # Dados do Usuário (Memória Declarativa - o que você sabe/fez)
-    │   ├── hippocampus/  # Docs/Notas (Episódica)
-    │   ├── neocortex/    # Projetos/Código (Semântica)
-    │   ├── amygdala/     # Downloads (Urgente/Temporário)
-    │   └── cerebellum/   # ~/.config (Habilidades/Configurações)
-    ├── sensory/       # Buffers Real-time (Memória Sensorial) - Ex: /tmp gráfico
-    ├── working/       # Processamento Ativo (Memória de Trabalho) - Ex: RAMdisk /dev/shm, caches
-    └── external/      # Armazenamento Externo (Memória de Longo Prazo Arquivada)
-    ```
-* **Neuro-Analogia:** Criar um "palácio da memória" digital, onde cada tipo de informação tem seu lugar lógico, facilitando acesso e gerenciamento.
+<pre data-overflow="wrap"><code>/
+├── system/        # OS Base (Memória Procedural - como fazer as coisas)
+├── cognitive/     # Dados do Usuário (Memória Declarativa - o que você sabe/fez)
+│   ├── hippocampus/  # Docs/Notas (Episódica)
+│   ├── neocortex/    # Projetos/Código (Semântica)
+│   ├── amygdala/     # Downloads (Urgente/Temporário)
+│   └── cerebellum/   # ~/.config (Habilidades/Configurações)
+<strong>├── sensory/       # Buffers Real-time (Memória Sensorial) - Ex: /tmp gráfico
+</strong>├── working/       # Processamento Ativo (Memória de Trabalho) - Ex: RAMdisk /dev/shm, caches
+└── external/      # Armazenamento Externo (Memória de Longo Prazo Arquivada)
+</code></pre>
+
+* Criar um "palácio da memória" digital, onde cada tipo de informação tem seu lugar lógico, facilitando acesso e gerenciamento.
 
 **2.2 Implementando a Estrutura (Particionamento e `fstab`)**
 
 * **Ação:** Mapear partições (criadas durante a instalação do Debian ou depois com `gparted`/`parted`) para essa estrutura no `/etc/fstab`, usando filesystems e opções otimizadas.
 *   **Exemplo `/etc/fstab` (Adapte UUIDs e partições!):**&#x53;nippet de código
 
+    {% code overflow="wrap" %}
     ```
     # /system (Ex: Raiz / em Btrfs com compressão)
     UUID=XXXX-SYST  /               btrfs   defaults,noatime,compress=zstd:3,autodefrag,space_cache=v2 0 1
@@ -41,6 +37,7 @@ Aqui a gente define como a informação é armazenada e acessada, inspirando-nos
     tmpfs           /dev/shm        tmpfs   defaults,size=8G,noatime,nodev,nosuid,mode=1777 0 0 # Ajuste size
     # Outros mapeamentos como /tmp pra tmpfs podem ser feitos aqui também
     ```
+    {% endcode %}
 * **Neuro-Analogia:** Conectando as áreas cerebrais definidas com os "nervos" (pontos de montagem) e definindo a "química" (opções de montagem) pra cada uma.
 
 **2.3 Limpeza Sináptica Automática (TRIM para SSD/NVMe)**

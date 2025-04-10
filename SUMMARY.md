@@ -7,8 +7,8 @@
 
 * [Neurogênese em Silício: Um Blueprint Maximalista para Invocação de Prótese Cognitiva em Debian/KDE O](diario/neurogenese-em-silicio-um-blueprint-maximalista-para-invocacao-de-protese-cognitiva-em-debian-kde-o/README.md)
   * [Introdução](diario/neurogenese-em-silicio-um-blueprint-maximalista-para-invocacao-de-protese-cognitiva-em-debian-kde-o/introducao.md)
-  * [Capítulo 1: Fundação da Fortaleza Digital – Hardening e Otimização de Base no Debian](diario/neurogenese-em-silicio-um-blueprint-maximalista-para-invocacao-de-protese-cognitiva-em-debian-kde-o/capitulo-1-fundacao-da-fortaleza-digital-hardening-e-otimizacao-de-base-no-debian.md)
-  * [Page 2](diario/neurogenese-em-silicio-um-blueprint-maximalista-para-invocacao-de-protese-cognitiva-em-debian-kde-o/page-2.md)
+  * [Capítulo 1: Hardening e Otimização de Base no Debian](diario/neurogenese-em-silicio-um-blueprint-maximalista-para-invocacao-de-protese-cognitiva-em-debian-kde-o/capitulo-1-hardening-e-otimizacao-de-base-no-debian.md)
+  * [Capítulo 2: Filesystem e Gerenciamento de Memória Avançado](diario/neurogenese-em-silicio-um-blueprint-maximalista-para-invocacao-de-protese-cognitiva-em-debian-kde-o/capitulo-2-filesystem-e-gerenciamento-de-memoria-avancado.md)
 
 ## Technologys
 
