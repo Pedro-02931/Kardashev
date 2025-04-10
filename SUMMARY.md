@@ -3,6 +3,13 @@
 * [🗺️ NIHILISTIC WELCOME TO THE DIGITAL GRAVEYARD - SENAI](README.md)
   * [CUSTOMIZED NEURAL ARCHTECTURE: AN OVERCLOCKIN OF MISANTOPRY](readme/customized-neural-archtecture-an-overclockin-of-misantopry.md)
 
+## Diário
+
+* [Neurogênese em Silício: Um Blueprint Maximalista para Invocação de Prótese Cognitiva em Debian/KDE O](diario/neurogenese-em-silicio-um-blueprint-maximalista-para-invocacao-de-protese-cognitiva-em-debian-kde-o/README.md)
+  * [Introdução](diario/neurogenese-em-silicio-um-blueprint-maximalista-para-invocacao-de-protese-cognitiva-em-debian-kde-o/introducao.md)
+  * [Capítulo 1: Fundação da Fortaleza Digital – Hardening e Otimização de Base no Debian](diario/neurogenese-em-silicio-um-blueprint-maximalista-para-invocacao-de-protese-cognitiva-em-debian-kde-o/capitulo-1-fundacao-da-fortaleza-digital-hardening-e-otimizacao-de-base-no-debian.md)
+  * [Page 2](diario/neurogenese-em-silicio-um-blueprint-maximalista-para-invocacao-de-protese-cognitiva-em-debian-kde-o/page-2.md)
+
 ## Technologys
 
 * [Sistema Cognitivo Veicular com Inferência Heurística em Ambiente Descentralizado com Raspberry Pi](technologys/sistema-cognitivo-veicular-com-inferencia-heuristica-em-ambiente-descentralizado-com-raspberry-pi/README.md)
